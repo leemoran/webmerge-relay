@@ -21,3 +21,5 @@ Set the script's URL as your [NationBuilder webhooks](http://nationbuilder.com/w
 *   {$County}*
 
 _*Due to the way NationBuilder handles submitted addresses, county will likely not be included unless it's been manually entered by an administrator beforehand_
+
+Once you've verified everything is working properly with Webmerge's sample PDFs, update **Line 68** to turn off test mode.
