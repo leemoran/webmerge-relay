@@ -20,4 +20,4 @@ Set the script's URL as your [NationBuilder webhooks](http://nationbuilder.com/w
 *   {$DOB}
 *   {$County}*
 
-_*Due to the way NationBuilder handles submitted addresses, **county** will likely not be included unless it's been manually entered by an administrator beforehand_
+_*Due to the way NationBuilder handles submitted addresses, county will likely not be included unless it's been manually entered by an administrator beforehand_
