@@ -6,7 +6,7 @@ Before uploading, update the following:
 
 *   **Line 62** with your Webmerge document ID
 *   **Line 63** with your [Webmerge API Key](https://www.webmerge.me/manage/account?page=api)
-*   **Line 18** with the tag given to signups on your NationBuilder signup page
+*   **Line 18** with your signup page's slug
 
 Set the script's URL as your [NationBuilder webhooks](http://nationbuilder.com/webhooks_overview) endpoint. You will need to update your document's field map to use the provided field names. Currently, relay.php provides the following:
 

@@ -9,13 +9,13 @@ $data = json_decode($raw,true);
 // Parse the data
 
 $person = $data['payload']['person'];
-$tags = $person['tags'];
+$slug = $person['page_slug'];
 
-// Only do any of this if the person is tagged properly,
+// Only do any of this if the person signed up on the chosen page,
 // otherwise every single signup on NationBuilder will get the PDF.
-// Update your selected tag accordingly
+// Update Line 18 with your page's slug.
 
-if (in_array("YOUR TAG HERE",$tags)) {
+if ( $slug == "YOUR SLUG HERE" ) {
 
 	// Prepare the relay for Webmerge. Property names are used
 	// in the Field Map, e.g. FirstName = {$FirstName}
